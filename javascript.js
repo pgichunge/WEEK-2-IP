@@ -2,9 +2,8 @@
 
 //calculating akan name 
 // formular given 
-var gender = prompt("What is your gender?")
-var birthdayYear = Number(prompt("Which year were you born?"))
-var gender = prompt("What is your gender?")
+
+
 
 const farLeftResult = farLeft(10)
 const farRightResult = farRight(10)
@@ -13,6 +12,7 @@ const middleResult = middle(birthdayYear)
 var calculationResult = (farLeftResult + middleResult + farRightResult + 10) % 7
 const wholeNumber = calculationResult.toPrecision(1);
 alert(wholeNumber);
+
 //calculation results is 2
 const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 const femaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
@@ -43,6 +43,9 @@ const handleclick = () => {
         const centuryvar = string(birthyear).substring[0, 2]
         const yearvar = string(birthyear).substring[2]
         console.log(century, year)
+        
+        var birthdayYear = Number(prompt("Which year were you born?"))
+var gender = prompt("What is your gender?")
     
     }
     else {
