@@ -13,9 +13,6 @@ var calculationResult = (farLeftResult + middleResult + farRightResult + 10) % 7
 const wholeNumber = calculationResult.toPrecision(1);
 alert(wholeNumber);
 
-var birthdayYear = Number(prompt("Which year were you born?"))
-var gender = prompt("What is your gender?"
-
 //calculation results is 2
 const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 const femaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
@@ -46,8 +43,8 @@ const handleclick = () => {
         const centuryvar = string(birthyear).substring[0, 2]
         const yearvar = string(birthyear).substring[2]
         console.log(century, year)
-
-
+var birthdayYear = Number(prompt("Which year were you born?"))
+var gender = prompt("What is your gender?")
     
     }
     else {
