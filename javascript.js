@@ -18,7 +18,11 @@ console.log(birthday,birthmonth,birthyear,birthgender)
 //check user gender
 const allgendersarrays=["male","female"]
 if (allgendersarrays.includes(birthgender)){
-    console.log("continue here")
+// CC - is the century digits
+//YY - is the Year digit
+const centuryvar=string (birthyear).substring[0,2]
+const yearvar=string (birthyear).substring[2]
+console.log(century,year)
 }
 else{
     alert("please enter either male or female in the genderbox")
