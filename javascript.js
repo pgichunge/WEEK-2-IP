@@ -17,7 +17,7 @@ const birthgender=birthgenderbox.value;
 console.log(birthday,birthmonth,birthyear,birthgender)
 //check user gender
 const allgendersarrays=["male","female"]
-if (allgendersarrays.includes[birthgender]){
+if (allgendersarrays.includes(birthgender)){
     console.log("continue here")
 }
 else{
