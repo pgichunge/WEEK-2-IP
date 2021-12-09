@@ -1,19 +1,18 @@
 const handleclick=() =>{
     // gather user input for
 
-const birthdaybox=document.getElementbyid("birthday")
-const birthmonthbox=document.getElementbyid("birthmonth")
-const birthyearbox=document.getElementbyid("birthyear")
-const birthgenderbox=document.getElementbyid("gender")
+
+const birthmonthbox=document.getelementbyid("birthmonth")
+const birthyearbox=document.getelementbyid("birthyear")
+const birthgenderbox=document.getelementbyid("gender")
 
  
-//get the elements value
-const birthday=birthdaybox.value;
+//get the elements 
 const birthmonth=birthmonthbox.value;
 const birthyear=birthyearbox.value;
 const birthgender=birthgenderbox.value;
 
 
-console.log(birthday,birthmonth,birthyear,birthgender)
+console.log(birthmonth,birthyear,birthgender)
 
 }
