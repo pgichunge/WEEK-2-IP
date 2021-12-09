@@ -16,4 +16,6 @@
 ## week 2 project
 
 This is my week 2 ip
+languages used
+js and html
 
