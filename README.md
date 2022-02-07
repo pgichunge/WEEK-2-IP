@@ -1,21 +1,7 @@
 "# WEEK-2-IP" 
-<div></div>
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-   <img src="cat.jpg" alt="photo of a cat">
-<img src="cat.jpg" alt="photo of a cat" sizes="30px" srcset="50px">
-
-  <h3 align="center">README Template</h3>
-</div>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## week 2 project
-
-This is my week 2 ip
-languages used
-js and html
-
+name: user name calculator
+owner:pamela mwendwa gichunge
+how it works: it is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+Technology used. *HTML *JavaScript *CSS
+Features: *Enter your year of birth. *Enter your month of birth. *Enter your day of birth. *Select your Gender. *Get your Akan name.
+Link to live site on GitHub Pages:
